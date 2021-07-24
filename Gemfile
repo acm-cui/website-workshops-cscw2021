@@ -13,7 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-datapage-generator", "~> 1.3.0"
   gem "jekyll-last-modified-at"
-  gem 'jekyll-minifier'
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-redirect-from'

@@ -49,7 +49,6 @@ bootstrap:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-#  - jekyll-datapage-generator
   - jekyll-last-modified-at
   - jekyll-optional-front-matter
   - jekyll-redirect-from
