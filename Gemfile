@@ -9,7 +9,7 @@ gem 'execjs'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-seo-tag", "~> 2.1"
+  gem "jekyll-seo-tag"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-datapage-generator", "~> 1.3.0"
   gem "jekyll-last-modified-at"
