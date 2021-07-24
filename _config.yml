@@ -2,9 +2,6 @@ title: >-
   CUI@CSCW: Inclusive and Collaborative Child-facing Voice Technologies
 tagline: >-
   A workshop at the virtual ACM CSCW 2021 conference
-author:
-  name: 'Github User'
-  email: 'github@example.com'
 description: >- # this means to ignore newlines until "baseurl:"
   A CSCW 2021 workshop bringing together researchers from the CUI and CSCW 
   communities to explore the design and study of child-facing voice
