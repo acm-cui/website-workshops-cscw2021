@@ -31,8 +31,10 @@ $code-color: #D9D90F;
 
 // end overrides
 
-$site-banner-bg: #0A558C;
-$site-banner-fg: $white;
+$site-banner-bg:             #0A558C;
+$site-banner-fg:             $white;
+$site-banner-border-color:   #D9D80F;
+$site-banner-border:         5px solid $site-banner-border-color;
 
 $organiser-image-w: (
   xs: 100px,

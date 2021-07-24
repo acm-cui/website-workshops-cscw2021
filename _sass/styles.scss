@@ -1,5 +1,16 @@
+.nav-link.active .triangle {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid $site-banner-border-color;
+}
+
 .site-banner {
 	background: $site-banner-bg;
+  border-top: $site-banner-border;
+  border-bottom: $site-banner-border;
 	color: $site-banner-fg;
 }
 
