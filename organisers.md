@@ -12,12 +12,12 @@ nav_position: 2
   <div class="flex-shrink-0">
 		{%- if organiser.image -%}
 		{%- assign image_path = "/assets/img/" | append: organiser.image -%}
-    <img src="{{ image_path | relative_url }}" alt="An photograph of {{ organiser.name }}" class="rounded">
+    <img src="{{ image_path | relative_url }}" alt="An photograph of {{ organiser.name }}" class="organiser-image rounded">
 		{%- else -%}
-		<div style="width: 200px" class="d-block"></div>
+		<div class="d-block organiser-image"></div>
 		{%- endif -%}
   </div>
-  <div class="flex-grow-1 ms-5">
+  <div class="flex-grow-1 ms-md-5 ms-3">
     <p>
 			{%- if organiser.website -%}
 			<a href="{{ organiser.website }}" title="Visit {{ organiser.name }}'s website">{{ organiser.name }}</a> {{ organiser.biography }}

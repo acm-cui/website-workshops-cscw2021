@@ -2,3 +2,11 @@
 	background: $site-banner-bg;
 	color: $site-banner-fg;
 }
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .organiser-image {
+      width: map-get($organiser-image-w, $breakpoint);
+    }
+  }
+}
