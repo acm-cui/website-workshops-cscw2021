@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="d-flex flex-column vw-100 vh-100">
+
+    {%- include header.html -%}
+
+    <main class="page-content py-5 flex-shrink-0" aria-label="Content">
+
+			{%- if page.sidebar -%}
+			
+			<div class="container">
+				<div class="row">
+		      <div class="col-xl-9 col-md-8 col-12">
+		      {{ content }}
+		      </div>
+			
+		      <div class="col-xl-3 col-md-4 pl-md-5 pt-md-0 pt-3 sidebar">
+					{%- for widget in page.sidebar -%}
+					{%- assign widget_file = widget | prepend:'widget-' | append:'.md' -%}
+					
+					{%- capture widget_html -%}{%- include {{ widget_file }} -%}{%- endcapture -%}
+
+					<div class="sidebar-widget py-3">
+					{{ widget_html | markdownify }}
+					</div>
+
+					{%- endfor -%}
+
+					</div>
+				</div>
+			</div>
+			
+			{%- else -%}
+			
+      <div class="container">
+      {{ content }}
+      </div>
+
+			{%- endif -%}
+
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>

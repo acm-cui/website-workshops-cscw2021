@@ -1,0 +1,58 @@
+title: >-
+  CUI@CSCW: Inclusive and Collaborative Child-facing Voice Technologies
+tagline: >-
+  A workshop at the virtual ACM CSCW 2021 conference
+author:
+  name: 'Github User'
+  email: 'github@example.com'
+description: >- # this means to ignore newlines until "baseurl:"
+  A CSCW 2021 workshop bringing together researchers from the CUI and CSCW 
+  communities to explore the design and study of child-facing voice
+  technologies.
+
+excerpts:
+  # Displays or hides post excerpts from home layout post listing.
+  show: true
+  # Cuts off excerpts with an ellipsis (...) after 32 words (approx. 2 lines).
+  # You can also leave this false, and manually control excerpt length:
+  # https://jekyllrb.com/docs/posts/#post-excerpts
+  auto_truncate: true
+
+# Theme configuration
+bootstrap:
+  # Theme date format
+  # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+  date_format: "%b %-d, %Y"
+
+  # If you want to link only specific pages in your header, uncomment
+  # this and add the path to the page *files* in order as they should show up
+  #header_pages:
+  # - about.md
+
+  # generate social links in footer
+  social_links:
+    twitter: 'https://twitter.com/jonaharagon'
+    github:  'https://github.com/jonaharagon'
+    #facebook: 'https://example.com/@jekyllrb'
+    #instagram: 'https://example.com/@jekyllrb'
+    #linkedin: 'https://example.com/@jekyllrb'
+    #google: 'https://example.com/@jekyllrb'
+    #youtube: 'https://example.com/@jekyllrb'
+    #twitch: 'https://example.com/@jekyllrb'
+    #telegram: 'https://example.com/@jekyllrb'
+    #whatsapp: 'https://example.com/@jekyllrb'
+    #discord: 'https://example.com/@jekyllrb'
+    #slack: 'https://example.com/@jekyllrb'
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+#  - jekyll-datapage-generator
+  - jekyll-last-modified-at
+  - jekyll-minifier
+  - jekyll-optional-front-matter
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
