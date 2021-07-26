@@ -8,8 +8,7 @@ nav_position: 1
 ---
 
 We invite researchers from academia and practitioners from industry to submit position papers. Papers should be 3–6 pages long (including references) in the <a href="https://chi2020.acm.org/authors/chi-proceedings-format/#EAF" title="The Legacy CM CHI Extended Abstracts format">(Legacy) ACM CHI Extended Abstract template</a> (<a href="https://chi2020.acm.org/sigchi-chi20-sample-ea" title="Download the Word version of the CHI Extended Abstracts template">Word</a>/<a href="https://chi2020.acm.org/extended-abstract-source/" title="Download the LaTeX version of the CHI Extended Abstracts template">LaTeX</a>/<a href="https://www.overleaf.com/latex/templates/chi2020-extended-abstract/hvnyhtvgqhwc" title="Start an Overleaf project with the CHI Extended Abstracts template">Overleaf</a>). 
-
-We expect authors to submit their position papers via email in PDF format. Please send the papers to rgarg01@syr.edu with the following subject line: CSCW2021CUIWorkshop-Title of the paper. 
+ 
 
 The submission should describe the authors’ work related to the workshop aims and challenges below, or any other key topic that authors feel should be addressed by the community. Authors of position papers will be invited to present at the workshop.
 
