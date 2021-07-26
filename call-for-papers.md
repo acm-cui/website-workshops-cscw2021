@@ -17,7 +17,7 @@ The submission should describe the authors’ work related to the workshop aims 
 In this workshop we aim to particularly focus issues that are particularly relevant for children and families around CUI:
 
 * Explore parameters and issues needing to be considered in designing CUIs for interpersonal spaces, such as people’s homes.
-* Re-imagine CUIs as \textit{everyday computing interfaces.}
+* Re-imagine CUIs as everyday computing interfaces.
 * Examine key ideas around the appropriateness and design of tool-like voice agents and social-actor like voice agents that might also support inter-person collaboration.
 * Understand the challenges in designing inclusive CUIs that accommodate and are sensitive to one's developmental stage, intersectional identity, and personal, social, and cultural context, specially in multi-party interactions in homes.
 
