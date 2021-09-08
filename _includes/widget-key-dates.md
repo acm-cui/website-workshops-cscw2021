@@ -1,7 +1,7 @@
 ### Key dates
 
 **Submissions due**<br>
-10th September 2021<br>
+<s>10th</s> 17th September 2021<br>
 (midnight, EDT/UTC-5)
 
 **Notifications sent**<br>
