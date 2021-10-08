@@ -3,7 +3,7 @@ layout: page
 title: Organizers
 
 nav_text: Organizers
-nav_position: 2
+nav_position: 4
 ---
 
 
